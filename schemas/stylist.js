@@ -22,7 +22,6 @@ export default defineType({
         maxLength: 96,
       },
       validation: (rule) => rule.required(),
-      fieldset: 'hidden', // add the "hidden" fieldset to hide the field
     }),
     defineField({
       name: 'picture',
