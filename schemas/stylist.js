@@ -15,7 +15,7 @@ export default defineType({
     }),
     defineField({
       name: 'slug',
-      title: 'Slug (for internal use. just click generate))',
+      title: 'Slug (for internal use. just click generate)',
       type: 'slug',
       options: {
         source: 'name',
