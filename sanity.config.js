@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Headsrong Studio',
+  title: 'Headstrong Studio',
 
   projectId: 'etxmd4lr',
   dataset: 'production',
