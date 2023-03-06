@@ -114,6 +114,16 @@ export default defineType({
         },
       ],
     }),
+    defineField({
+      name: 'facebook',
+      title: 'Facebook Link',
+      type: 'url',
+    }),
+    defineField({
+      name: 'instagram',
+      title: 'Instagram Link',
+      type: 'url',
+    }),
     
   ],
   fieldsets: [
