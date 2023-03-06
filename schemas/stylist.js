@@ -106,9 +106,6 @@ export default defineType({
               type: 'text',
               title: 'Description',
               description: 'Enter a description of the image so screen readers can read it',
-              options: {
-                isHighlighted: true
-              }
             }
           ]
         },
