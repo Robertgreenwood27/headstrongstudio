@@ -11,7 +11,6 @@ export default defineType({
       name: 'name',
       title: 'Name',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'slug',
@@ -21,14 +20,12 @@ export default defineType({
         source: 'name',
         maxLength: 96,
       },
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'picture',
       title: 'Picture',
       type: 'image',
       options: { hotspot: true },
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'services',
@@ -86,7 +83,6 @@ export default defineType({
                 name: 'active',
                 title: 'Active',
                 type: 'boolean',
-                validation: Rule => Rule.required()
             }),
           ],
         },
